@@ -1,0 +1,23 @@
+{
+    "name": "clesy-theme-dark",
+    "displayName": "clesy-theme-dark",
+    "publisher": "EvgeniyGerasimenko",
+    "repository": {"url": "https://github.com/Clesy/clesy-theme-vs-code"},
+    "description": "",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "clesy-theme-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/clesy-theme-dark-color-theme.json"
+            }
+        ]
+    }
+}
